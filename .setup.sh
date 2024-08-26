@@ -1,7 +1,7 @@
 rm -rf ./.git
 mv ./.alias ~/.alias
 mv ./.cmds ~/.cmds
-chmod +x ~/.cmds
+chmod +x ~/.cmds ~/.alias
 echo "~/.alias" >> ~/.bashrc
 echo "~/.alias" >> ~/.zshrc
 source ~/.bashrc >> ~/.output
